@@ -1,3 +1,1 @@
-export function double(x: number) {
-    return 2 * x;
-}
+export const doble = (x: number) => 2 * x;
