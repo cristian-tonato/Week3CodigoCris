@@ -1,17 +1,16 @@
-import { double } from "./js/tools.js";
+/* eslint-disable prefer-const */
+import { doble } from './tools.js';
 let x;
 x = 3;
-//x="pepe";
 x = null;
-//if(x)
 if (x)
-    console.log(double(x));
-//Inferencia de tipos
+    console.log(doble(x));
+// Inferencia de tipos
 let z = 92;
-//z ="pepe" ERROR
-//SIN INFERENCIA DE TIPOS
-//Mala practica. TIPO ANY
+// z = 'Pepe' ERROR
+// Sin inferencia
+// let y: number = 92; Error en ESLiNt
+// MALA PRÁCTICA : TIPO ANY
 let w;
 w = 45;
-w = "pepe";
-//
+w = 'Pepe';
